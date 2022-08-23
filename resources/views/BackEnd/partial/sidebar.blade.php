@@ -86,21 +86,7 @@
                 </ul>
             </li>
 
-            <li class="nav-item">
-                <a href="#" class="collapsed-nav-link nav-link" aria-expanded="false">
-                    <span class="icon"><i class='bx bx-chat'></i></span>
-                    <span class="menu-title">Contact Us</span>
-                </a>
-
-                <ul class="sidemenu-nav-second-level">
-                    <li class="nav-item">
-                        <a href="{{route('admin.allFeedbacks')}}" class="nav-link">
-                            <span class="icon"><i class='bx bx-right-arrow-alt'></i></span>
-                            <span class="menu-title">View Feedbacks</span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
+            
 
             <!-- <li class="nav-item-title">
                 <b>Asset Tracking</b>
