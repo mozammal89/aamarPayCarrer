@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
+use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\CareerController;
+
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\JobsController;
 use App\Http\Controllers\HomeController;
@@ -17,9 +21,13 @@ use App\Http\Controllers\ApplicantController;
 |
 */
 
-Route::get('/', function () {
-    return view('FrontEnd.home');
-});
+Route::get('/', [FrontEndController::class,'home'])->name('home');
+Route::get('/home', [FrontEndController::class,'home'])->name('home');
+
+Route::get('career', [CareerController::class,'index'])->name('career');
+Route::get('career/jobdetails/{id}',[CareerController::class,'jobdetails'])->name('career.jobdetails');
+Route::post('career/applyjobs/{id}',[CareerController::class,'applyjobs'])->name('career.applyjobs');
+
 
 Auth::routes();
 Route::get('/admin', [HomeController::class, 'index'])->name('admin.dashboard');

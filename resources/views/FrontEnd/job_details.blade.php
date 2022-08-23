@@ -27,7 +27,7 @@
             <div class="row justify-content-around">
                 <div class="col-md-12">
                     <div class="about-content-right mb-md-4 mb-lg-0">
-                        <h2>About Us</h2>
+                        <h2>Details</h2>
                         <p>{{$all_jobs->job_description}}</p>
                         <div class="feature-tabs-wrap">
                             <ul class="nav nav-tabs mb-3 border-bottom-0 feature-tabs" data-tabs="tabs">

@@ -7,7 +7,9 @@
                     <div class="topbar-text text-white">
                         <ul class="list-inline">
                             <li class="list-inline-item"><span class="fas fa-envelope mr-1"></span> <a
-                                    href="mailto:support@softbd.com">support@softbd.com</a></li>
+                                    href="mailto:support@softbd.com">support@aamarpay.com</a></li>
+                            <li class="list-inline-item"><span class="fas fa-envelope mr-1"></span> <a
+                                    href="mailto:support@softbd.com">career@aamarpay.com</a></li>
                             <li class="list-inline-item"><span class="fas fa-map-marker mr-1"></span> Uttara, Dhaka
                             </li>
                         </ul>
@@ -47,28 +49,8 @@
     <nav class="navbar navbar-expand-lg fixed-top white-bg">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="{{asset('FrontEnd/images/stil.png')}}" alt="logo" class="img-fluid logo" />
+                <img src="https://aamarpay.com/images/logo/aamarpay_logo.png" alt="logo" class="img-fluid logo" style="width: 100%" />
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="ti-menu"></span>
-            </button>
-            <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto menu">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Career</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-                
-                <img src="{{asset('FrontEnd/images/mujib_logo.png')}}" alt="logo" class="img-fluid logo" />
-                
-            </div>
         </div>
     </nav>
     <!--navbar end-->

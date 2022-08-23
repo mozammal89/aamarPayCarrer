@@ -8,50 +8,23 @@
                         <div class="row footer-top-wrap">
                             <div class="col-md-4 col-sm-6">
                                 <div class="footer-nav-wrap">
-                                    <img src="{{asset('FrontEnd/images/stil.png')}}" class="img-fluid" width="150px" />
+                                    <img src="https://aamarpay.com/images/logo/aamarpay_logo.png" class="img-fluid" width="150px" />
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Soft Tech Innovation ltd. is a software developing company. It was established in 2005. We have two wings under soft Tech Innovation Ltd. These are aamarPay and MuthoFun.</a>
+                                            <a class="nav-link" href="#">AamarPay Is One Of The Top Leading Online Payment Gateway & FinTech Company Offering Payment Gateway Solution For SME To Large Enterprises. We Offer Both Local & International Payment Accepting Using Various Payment Methods.</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 pt-5">
                                 <div class="footer-nav-wrap">
-                                    <h4 class="">COMPANY</h4>
-                                    <ul class="nav flex-column">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#service-section">About Our Services</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#our-portfolio-section">Our Portfolio</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#team-section">View Our Team</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Check Our Careers</a>
-                                        </li>
-                                    </ul>
+                                    
 
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 pt-5">
                                 <div class="footer-nav-wrap">
-                                    <h4 class="">SUPPORT</h4>
-                                    <ul class="nav flex-column">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#contact-us-section">Contact</a>
-                                        </li>
-                                        <!-- <li class="nav-item">
-                                            <a class="nav-link" href="#">Knowledge Base</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Forums</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">System Status</a>
-                                        </li> -->
+                                    
                                     </ul>
                                 </div>
                             </div>
