@@ -78,7 +78,7 @@
 </div> -->
 <!-- End -->
 
-<h2 style="text-align: center; margin-top: 100px;"><b>Welcome to STIL Admin Panel</b></h2>
+<h2 style="text-align: center; margin-top: 100px;"><b>Welcome to aamarPay Career Admin Panel</b></h2>
 
 <div class="flex-grow-1"></div>
 

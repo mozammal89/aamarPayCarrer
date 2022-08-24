@@ -13,7 +13,7 @@
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="{{asset('BackEnd/assets/css/responsive.css')}}">
 
-        <title>Soft Tech Innovation Ltd</title>
+        <title>aamarPay</title>
 
         <link rel="icon" type="image/png" href="{{asset('BackEnd/assets/img/stil.png')}}">
     </head>
@@ -26,7 +26,7 @@
                 <div class="d-table-cell">
                     <div class="login-form">
                         <div class="logo">
-                            <a href="#"><img src="{{asset('BackEnd/assets/img/stil.png')}}" alt="image"></a>
+                            <a href="#"><img src="https://aamarpay.com/images/logo/aamarpay_logo.png" alt="image"></a>
                         </div>
 
                         <h2>Welcome</h2>

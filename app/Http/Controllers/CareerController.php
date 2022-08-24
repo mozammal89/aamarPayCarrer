@@ -33,23 +33,26 @@ class CareerController extends Controller
             'email' => 'required',
             'address' => 'required',
             'phone' => 'required',
-            'file' => 'required|mimes:pdf,xlx,csv|max:2048',
+            'expected_salary' => 'required',
+            'file' => 'required|mimes:pdf,csv|max:2048',
          
         ]);
 
     	$apply = new Applicants;
 
-    	// $job_details = Jobs::where('id',)->get();
+    	$job_details = Jobs::find($request->id);
 
-    	// dd($job_details);
+    	// dd($job_details->job_title);
 
     	$apply->job_id = $request->id;
-
+    	$apply->job_title = $job_details->job_title;
     	$apply->name = $request->name;
     	$apply->email = $request->email;
     	$apply->address = $request->address;
     	$apply->phone = $request->phone;
     	$apply->name = $request->name;
+    	$apply->current_salary = $request->current_salary;
+    	$apply->expected_salary = $request->expected_salary;
 
         $fileName = time().'.'.$request->file->extension();    
         $request->file->move(public_path('FrontEnd/cv_uploads'), $fileName);
@@ -57,7 +60,7 @@ class CareerController extends Controller
         $apply->file = $fileName;
         $apply->save();
 
-        Toastr::success('CV submitted successfully','Success'); 
+        Toastr::success('Your Application Submitted Successfully','Success'); 
 
         return redirect()->route('career.jobdetails', ['id' => $request->id])
                          ->with('success','CV Submitted successfully.');

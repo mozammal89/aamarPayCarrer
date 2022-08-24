@@ -5,7 +5,7 @@
         </a> -->
         <a href="{{route('admin.dashboard')}}" class="navbar-brand d-flex align-items-center">
             <img src="{{asset('BackEnd/assets/img/small_logo.png')}}" alt="image" id="bigLogo">
-            <span><i>ST<font color="#F39700">IL</font></i></span>
+            <span><i>aamar<font color="#F39700">Pay</font></i></span>
         </a>
 
         <div class="burger-menu d-none d-lg-block">

@@ -42,7 +42,7 @@ Route::get('/admin/joblist', [JobsController::class, 'joblist'])->name('admin.jo
 Route::get('/admin/joblistDetails/{id}', [JobsController::class, 'joblistDetails'])->name('admin.joblistDetails');
 Route::get('/admin/joblist/{id}', [JobsController::class, 'jobsgetEdit'])->name('admin.JobsGetEdit');
 Route::put('/admin/joblist/{id}', [JobsController::class, 'jobsEdit'])->name('admin.JobsEdit');
-Route::delete('/admin/joblist/{id}', [JobsController::class, 'delete'])->name('admin.delete');
+Route::delete('/admin/joblist/{id}', [JobsController::class, 'delete'])->name('adminJobList.delete');
 Route::get('/changeJobListStatus', [JobsController::class, 'changeStatus'])->name('admin.changeJobListStatus');
 // // Jobs End
 

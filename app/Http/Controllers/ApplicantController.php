@@ -11,6 +11,7 @@ class ApplicantController extends Controller
     public function index()
     {
     	$info = Applicants::get();
+        // dd($info);
     	return view ('BackEnd.view_applicants', compact('info'));
     }
 

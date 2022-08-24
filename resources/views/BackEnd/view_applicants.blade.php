@@ -8,7 +8,7 @@
     <thead>
         <tr>
             <th>ID</th>
-            <th>Post</th>
+            <th>Job Title</th>
             <th>Name</th>
             <th>Email</th>
             <th>Phone</th>
@@ -21,7 +21,7 @@
         @foreach($info as $all_info)
         <tr>
             <td>{{$loop->iteration}}</td>
-            <td>{{$all_info->jobPost->job_title}}</td>
+            <td>{{$all_info->job_title}}</td>
             <td>{{$all_info->name}}</td>
             <td>{{$all_info->email}}</td>
             <td>{{$all_info->phone}}</td>

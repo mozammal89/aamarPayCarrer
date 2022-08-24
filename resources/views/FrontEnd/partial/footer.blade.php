@@ -37,10 +37,10 @@
                                     <h4 class="">GET IN TOUCH</h4>
                                     <ul class="get-in-touch-list">
                                         <li class="d-flex align-items-center py-2"><span
-                                                class="fas fa-map-marker-alt mr-2"></span> 53, Gausul Azam Avenue, Sector 14 <br>
+                                                class="fas fa-map-marker-alt mr-2"></span> Plot-11, Road-2, Sector-3, Paradise Tower, Level-9, Jashimuddin Avenue, 
                             Uttara. Dhaka,1230</li>
                                         <li class="d-flex align-items-center py-2"><span
-                                                class="fas fa-envelope mr-2"></span> support@softbd.com</li>
+                                                class="fas fa-envelope mr-2"></span> support@aamarpay.com</li>
                                         <li class="d-flex align-items-center py-2"><span
                                                 class="fas fa-phone-alt mr-2"></span> 09643250250 (10 AM - 7 PM)</li>
                                     </ul>

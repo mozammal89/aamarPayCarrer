@@ -2047,7 +2047,7 @@ button.filter-btn:focus {
     bottom: 0;
     left: 0;
     font-size: 80%;
-    background: #1A2C79;
+    background: #fe9900;
     color: #ffffff;
     padding: 4px 15px;
 }
@@ -2077,7 +2077,7 @@ button.filter-btn:focus {
 }
 
 .blog-img:hover span.category {
-    background: #e80566;
+    background: #4d4e4e;
     color: #ffffff;
 }
 

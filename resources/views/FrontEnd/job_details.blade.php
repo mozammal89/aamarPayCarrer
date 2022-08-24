@@ -113,14 +113,16 @@
                     </div>
                 </div>
             </div>
+            <button type="button" class="btn stil-solid-btn disabled" style="pointer-events: all; cursor: pointer; margin-top:5%" data-toggle="modal" data-target="#basicModalLong_{{$all_jobs->id}}">Apply This Job</button>
         </div>
+       
     </section>
 
-    <button type="button" class="btn stil-solid-btn disabled" style="pointer-events: all; cursor: pointer; margin-left: 120px;" data-toggle="modal" data-target="#basicModalLong_{{$all_jobs->id}}">Apply This Job</button>
+    
 
     <!-- Modal -->
-    <div class="modal fade" id="basicModalLong_{{$all_jobs->id}}" role="dialog" aria-hidden="true">
-        <div class="modal-dialog  modal-dialog-scrollable" role="document">
+    <div class="modal fade bd-example-modal-lg" id="basicModalLong_{{$all_jobs->id}}" role="dialog" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog modal-lg" role="document">
         	<form method="POST" action="{{route('career.applyjobs',$all_jobs->id)}}" enctype="multipart/form-data">
 			@csrf
                 <input type="text" name="id" value="{{$all_jobs->id}}" hidden="">
@@ -149,8 +151,7 @@
 	                                        placeholder="Enter email" required="required">
 	                                </div>
 	                        	</div>
-	                        </div>
-	                        <div class="form-row">
+	                    
 	                        	<div class="col-md-6">
 	                        		<div class="form-group">
 	                        			<label>Address</label>
@@ -158,18 +159,33 @@
 	                                        required="required">
 	                                </div>
 	                        	</div>
-	                        	<div class="col-md-6">
+                                <div class="col-md-6">
 	                        		<div class="form-group">
 	                        			<label>Phone Number</label>
 	                                    <input type="text" class="form-control" name="phone"
 	                                        placeholder="Enter your phone number" required="required">
 	                                </div>
 	                        	</div>
+	                        	<div class="col-md-6">
+	                        		<div class="form-group">
+	                        			<label>Current Salary</label>
+	                                    <input type="text" class="form-control" name="current_salary"
+	                                        placeholder="Enter your Current Salary">
+	                                </div>
+	                        	</div>
+	                        	<div class="col-md-6">
+	                        		<div class="form-group">
+	                        			<label>Expected Salary</label>
+	                                    <input type="text" class="form-control" name="expected_salary"
+	                                        placeholder="Enter your Expected Salary" required="required">
+	                                </div>
+	                        	</div>
+	                        	
 	                        </div>
 	                        <div class="form-row">
 	                        	<div class="col-md-12">
 	                        		<div class="form-group" style="margin-bottom: 3px !important">
-                        			<label>Upload your CV</label>
+                        			<label>Upload your CV (<span style="color: coral;"> File Type PDF </span>)</label>
                         			</div>
 	                        		<div class="custom-file">
 										<input type="file" class="custom-file-input" name="file" id="customFile">
@@ -180,7 +196,6 @@
 	                    </div>
 	                    <div class="modal-footer">
 	                        <button type="submit" class="btn btn-warning" id="btnContactUs">Apply</button>
-	                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 	                    </div>
 	                </div>
 	            </div>

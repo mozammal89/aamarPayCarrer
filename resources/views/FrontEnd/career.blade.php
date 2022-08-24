@@ -26,25 +26,28 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="single-blog-card card border-0 shadow-sm">
                             <div class="blog-img">
-                                <a href="#"><span class="category position-absolute">{{$all_jobs->department}}</span></a>
-                                <a href="#"><img class="card-img-top position-relative img-fluid" alt="blog"></a>
+                                <span class="category position-absolute">{{$all_jobs->department}}</span>
+                                <img class="card-img-top position-relative img-fluid" alt="blog">
                             </div>
                             <div class="card-body">
-                                <h3 class="h5 mb-2 card-title"><a href="#">{{$all_jobs->department}}</a></h3>
+                                <h3 class="h5 mb-2 card-title"><a href="{{route('career.jobdetails', $all_jobs->id)}}">{{$all_jobs->job_title}}</a></h3>
                                 <p class="card-text"><b>Vaccancy:</b> {{$all_jobs->vacancy}}<br><b>Employment Status:</b> {{$all_jobs->employment_status}}<br><b>Job location:</b> {{$all_jobs->job_location}}</p>
                             </div>
+                            <a href="{{route('career.jobdetails', $all_jobs->id)}}" class="d-block">
                             <div class="card-footer border-0 d-flex align-items-center justify-content-between">
                                 <div class="author-meta d-flex align-items-center">
                                     <!-- <span class="fa fa-user mr-2 p-3 bg-white rounded-circle border"></span> -->
                                     <div class="author-content">
-                                        <a href="#" class="d-block">Application Deadline</a>
+                                      <strong> Application Deadline</strong>
+                                      <br>
                                         <small>{{$all_jobs->application_deadline}}</small>
                                     </div>
                                 </div>
                                 <div class="author-like">
-                                    <a href="{{route('career.jobdetails', $all_jobs->id)}}"><span class="fa fa-arrow-right"></span> Details</a>
+                                   <span class="fa fa-arrow-right"></span> Details
                                 </div>
                             </div>
+                            </a>
                         </div>
                     </div>
                     

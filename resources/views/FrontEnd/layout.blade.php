@@ -54,11 +54,11 @@
     <!-- Responsive -->
     <link rel="stylesheet" href="{{asset('FrontEnd/css/responsiv.css')}}">
 
-    <link rel="icon" href="{{asset('FrontEnd/images/logo_main.png')}}" type="image/gif" sizes="16x16">
+    <link rel="icon" href="{{asset('BackEnd/assets/img/small_logo.png')}}" type="image/gif" sizes="16x16">
     <!-- Toastr -->
     <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css"> 
 
-    <title>Soft Tech Innovation Ltd.</title>
+    <title>aamarPay | STIL | Career</title>
 </head>
 
 <body>
@@ -95,7 +95,7 @@
     <script src="{{asset('FrontEnd/js/script.js')}}"></script>
     <!-- Toastr -->
     <script src="https://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
-    {{-- {!! Toastr::message() !!}
+    {!! Toastr::message() !!}
 
     <script type="text/javascript">
         @if ($errors->any()) {
@@ -107,7 +107,7 @@
              @endforeach
         }
         @endif
-    </script> --}}
+    </script>
 
     @stack('js')
 </body>
